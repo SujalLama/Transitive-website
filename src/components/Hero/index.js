@@ -7,6 +7,7 @@ import {
   HeroBg,
   HeroContent
 } from "./HeroElements";
+import commute from "../../assets/commute1.mp4";
 
 const Hero = () => {
   return (
@@ -14,10 +15,7 @@ const Hero = () => {
       <HeroContainer id="hero">
         <HeroBg>
           <video autoplay muted loop>
-            <source
-              src={require("../../assets/commute.mp4")}
-              type="video/mp4"
-            ></source>
+            <source src={commute} type="video/mp4"></source>
           </video>
         </HeroBg>
 
